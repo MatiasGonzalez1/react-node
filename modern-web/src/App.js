@@ -1,9 +1,22 @@
 import './App.css';
+import {Footer, Blog, Possibility, Features, What, Header} from './containers';
+
+import {Cta, Brand, Navbar} from './components';
 
 function App() {
   return (
     <div className="App">
-      <h1>GP3</h1>
+      <div className='gradient__bg'>
+        <Navbar/>
+        <Header/>
+      </div>
+      <Brand/>
+      <What/>
+      <Features/>
+      <Possibility/>
+      <Cta/>
+      <Blog/>
+      <Footer/>
     </div>
   );
 }
