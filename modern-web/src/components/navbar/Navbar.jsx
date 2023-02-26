@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <div className='gpt3__navbar'>
       <div className='gpt3__navbar-links'>
-        <div className='gpt3__navbar-logo'>
+        <div className='gpt3__navbar-links-logo'>
           <img src={logo} alt='logo' />
         </div>
       </div>
