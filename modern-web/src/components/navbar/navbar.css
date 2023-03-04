@@ -38,7 +38,7 @@
 .gpt3__navbar-sign >p,
 .gpt3__navbar-menu_container >p
 {
-  color: #fff;
+  color: var(--color-text-white);
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 18px;
@@ -51,7 +51,7 @@
 .gpt3__navbar-sign button,
 .gpt3__navbar-menu_container button{
   padding: .5rem 1rem;
-  color: #fff;
+  color: var(--color-text-white);
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 18px;
@@ -80,7 +80,7 @@
   flex-direction: column;
   text-align: end;
   background-color: var(--color-footer);
-  color: #fff;
+  color: var(--color-text-white);
   font-family: var(--font-family);
   padding: 2rem;
   position: absolute;
